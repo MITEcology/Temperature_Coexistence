@@ -1,2 +1,1 @@
-# Temperature_Coexistence
-v1.0
+These are the data and codes in Matlab accompanying the manuscript "Modeling the effect of temperature on species coexistence" by Serguei Saavedra, Yuguang Yang, José Ignacio Arroyo, Christopher P. Kempes. The code is well commented. The codes reproduce Figure 2 and 3 from the paper.
