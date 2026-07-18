@@ -29,8 +29,6 @@ The MATLAB scripts reproduce the original theoretical analyses and empirical com
 
 The MATLAB scripts provide the primary implementation of the generalized Lotka--Volterra coexistence framework developed in the manuscript.
 
----
-
 ### R
 
 The R scripts reproduce the revised analyses introduced during peer review, including
@@ -76,6 +74,30 @@ Each script contains comments describing
 
 ---
 
+## What to run
+
+Run the following scripts from the repository root.
+
+### MATLAB
+
+The MATLAB scripts reproduce the original theoretical and empirical analyses:
+
+- `Analysis_EqTopt_CoexPairs_Number19.m`
+- `Analysis_EqTopt_CoexPairs_Number25.m`
+- `Analysis_DiffTopt_CoexPairs_Number.m`
+
+These scripts reproduce the main MATLAB-based analyses and call the corresponding helper functions and input `.mat` files included in the MATLAB folder.
+
+### R
+
+The R scripts reproduce the revised illustrative and sensitivity analyses:
+
+- `Figure2_Gaussian.R`
+- `Analysis_ModelFormSensitivity_Gaussian.R`
+- `Analysis_EmpiricalTableSensitivity.R`
+
+These scripts automatically generate the revised Figure 2, Supplementary Figure S1, and Supplementary Tables S1--S3.
+
 ## Software requirements
 
 The analyses were developed using
@@ -84,6 +106,6 @@ The analyses were developed using
 - R version 4.3 (or later)
 
 Required R packages are listed at the beginning of each R script.
-
----
-
+Department of Civil and Environmental Engineering  
+Massachusetts Institute of Technology  
+Email: **sersaa@mit.edu**
